@@ -1,0 +1,18 @@
+img {
+    border-radius: 10%;
+}
+
+.full-background {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 120%;
+    width: 100%;
+
+    /* Background */
+    background: url(src/assets/image/background.jpg) center center / cover no-repeat;
+}
